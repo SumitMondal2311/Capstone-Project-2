@@ -163,7 +163,7 @@
     }
 
     .social-links {
-        gap: 15%;
+        gap: 10%;
     }
 
     .bottom-container h3 {
@@ -177,6 +177,6 @@
 
 @media (max-width: 350px) {
     .social-links {
-        gap: 8%;
+        gap: 5%;
     }
 }
