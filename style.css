@@ -142,17 +142,19 @@
     gap: 40%;
 }
 
-@media (max-width: 576px) {
-    .top-container p {
-        width: 60%;
-    }
-
+@media (max-width: 990px) {
     .skill1 img, .skill2 img {
         width: 80%;
     }
 
     .skill1 p, .skill2 p, .skill1 h3, .skill2 h3 {
         clear: both;
+    }
+}
+
+@media (max-width: 576px) {
+    .top-container p {
+        width: 60%;
     }
 
     .skill1 p, .skill2 p {
@@ -161,7 +163,7 @@
     }
 
     .social-links {
-        gap: 20%;
+        gap: 15%;
     }
 
     .bottom-container h3 {
@@ -175,6 +177,6 @@
 
 @media (max-width: 350px) {
     .social-links {
-        gap: 10%;
+        gap: 8%;
     }
 }
